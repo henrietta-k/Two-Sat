@@ -4,7 +4,7 @@ Given a list of clauses/restrictions taking the form of (x | ~y) where | denotes
 
 ## How it Works
 
-The solver coverts the clauses into an implication graph, finds the strongly connected components of this graph, then determines the appropriate variables. It uses Kosaraju's theorem in finding the strongly connected components. 
+The solver coverts the clauses into an implication graph, finds the strongly connected components of this graph, then determines the appropriate variables. It uses Kosaraju's theorem to find the strongly connected components. 
 
 The output looks something like this:
 - a True
